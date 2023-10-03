@@ -1,19 +1,28 @@
-<?php require 'header.php'; ?>
 
-<!-- Header Start -->
-<div class="main-header w-100">
-        <div class="top-row d-flex justify-content-between align-items-center">
-            <div class="time">
-                <img src="assets/img/icons/i-phone-x-overrides-time-white.svg" alt="Time Icon White">
-                <img src="assets/img/icons/time-dark-theme.svg" class="dark-theme-image" alt="">
+<!doctype html>
+<html lang="en">
+    
+<!-- Mirrored from demo.gridgum.com/finhit/dist/menu.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 02 Oct 2023 15:58:27 GMT -->
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-            </div>
-            <div class="mobile-info-icons">
-                <img src="assets/img/icons/phone-icons-white.svg" alt="Phone Indication Icons White">
-                <img src="assets/img/icons/phone-icons-white.svg" class="dark-theme-image" alt="phone-icons">
+  <link rel="stylesheet" href="assets/css/main.min.css" type="text/css" media="screen">
+  <link rel="shortcut icon" href="#">
+  <title>FinHit</title>
+  <style>
+    .menu-item-icon img{
+    width: 30px;
+  }
 
-            </div>
-        </div>
+    </style>
+</head>
+
+<body class="main-menu">
+
+    <!-- Header Start -->
+    <div class="main-header w-100">
         <div class="middle-row d-flex justify-content-end w-100">                          
     
             <!-- Menu Icon Start -->
@@ -56,108 +65,48 @@
             <div class="menu-items">
     
                 <!-- Menu Item Start -->
-                <a href="home.html" class="menu-item">
+                <a href="index.php" class="menu-item">
                     <span class="menu-item-icon">
-                        <img src="assets/img/icons/overviews-menu-icon.svg" alt="Overview Menu Icon">
+                        <img src="assets/img/icons/home.png" alt="Overview Menu Icon">
                     </span>
                     <span class="menu-item-name">
-                        Overview
+                        Home
                     </span>
                 </a>
                 <!-- Menu Item End -->
     
                 <!-- Menu Item Start -->
-                <a href="about-us.html" class="menu-item">
+                <a href="search.php" class="menu-item">
                     <span class="menu-item-icon">
-                        <img src="assets/img/icons/profile-menu-icon.svg" alt="Profile Menu Icon">
+                        <img src="assets/img/icons/search.png" alt="Profile Menu Icon">
                     </span>
                     <span class="menu-item-name">
-                        About us
+                        Search
                     </span>
                 </a>
                 <!-- Menu Item End -->
     
                 <!-- Menu Item Start -->
-                <a href="all-pages.html" class="menu-item">
+                <a href="win.php" class="menu-item">
                     <span class="menu-item-icon">
-                        <img src="assets/img/icons/pages-menu-icon.svg" alt="Pages Menu Icon">
+                        <img src="assets/img/icons/win.png" alt="Pages Menu Icon">
                     </span>
                     <span class="menu-item-name">
-                        Pages
+                        Win
                     </span>
                 </a>
                 <!-- Menu Item End -->
     
                 <!-- Menu Item Start -->
-                <a href="components.html" class="menu-item">
+                <a href="acount.php" class="menu-item">
                     <span class="menu-item-icon">
-                        <img src="assets/img/icons/components-menu-icon.svg" alt="Components Menu Icon">
+                        <img src="assets/img/icons/account.png" alt="Components Menu Icon">
                     </span>
                     <span class="menu-item-name">
-                        Components
+                        My Acount
                     </span>
                 </a>
                 <!-- Menu Item End -->
-    
-                <!-- Menu Item Start -->
-                <a href="my-cards.html" class="menu-item">
-                    <span class="menu-item-icon">
-                        <img src="assets/img/icons/cards-menu-icon.svg" alt="My Cards Menu Icon">
-                    </span>
-                    <span class="menu-item-name">
-                        My Cards
-                    </span>
-                </a>
-                <!-- Menu Item End -->
-    
-                <!-- Menu Item Start -->
-                <a href="settings.html" class="menu-item">
-                    <span class="menu-item-icon">
-                        <img src="assets/img/icons/settings-menu-icon.svg" alt="Settings Menu Icon">
-                    </span>
-                    <span class="menu-item-name">
-                        Settings
-                    </span>
-                </a>
-                <!-- Menu Item End -->
-    
-                <!-- Menu Item Start -->
-                <a href="#" class="menu-item">
-                    <span class="menu-item-icon">
-                        <img src="assets/img/icons/support-menu-icon.svg" alt="Support Menu Icon">
-                    </span>
-                    <span class="menu-item-name">
-                        Support
-                    </span>
-                </a>
-                <!-- Menu Item End -->
-    
-                <!-- Menu Item Start -->
-                <a href="#" class="menu-item">
-                    <span class="menu-item-icon">
-                        <img src="assets/img/icons/usa-flag.svg" alt="Language Menu Icon">
-                    </span>
-                    <span class="menu-item-name">
-                        Language
-                    </span>
-                </a>
-                <!-- Menu Item End -->
-    
-            </div>
-            <!-- Menu Items End -->
-    
-            <!-- Logout Start -->
-            <div class="logout-section mt-auto">
-                <a href="index.html" class="logout-item">
-                    <span class="logout-section_icon">
-                        <i class="fal fa-sign-out"></i>
-                    </span>
-                    <span class="logout-section_name">
-                        Logout
-                    </span>
-                </a>
-            </div>
-            <!-- Logout End -->
 
         </div>
 
@@ -166,4 +115,8 @@
       <!-- All Content End -->
     </div>
 
-    <?php require 'footer.php'; ?>
+    <script type="text/javascript" src="assets/js/main.min.js"></script>
+</body>
+
+<!-- Mirrored from demo.gridgum.com/finhit/dist/menu.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 02 Oct 2023 15:58:31 GMT -->
+</html>
