@@ -98,7 +98,7 @@
                 <!-- Menu Item End -->
     
                 <!-- Menu Item Start -->
-                <a href="acount.php" class="menu-item">
+                <a href="account.php" class="menu-item">
                     <span class="menu-item-icon">
                         <img src="assets/img/icons/account.png" alt="Components Menu Icon">
                     </span>

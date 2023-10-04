@@ -8,14 +8,9 @@
   <link rel="stylesheet" href="assets/css/main.min.css" type="text/css" media="screen">
   <link rel="shortcut icon" href="#">
   <title>Game</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"  />
+  <link rel="stylesheet" href="assets/css/custom.css">
 </head>
-
-<style>
-  .main-footer .bottom-row .footer-menu-item img {
-    margin-bottom: 1px;
-    width: 30px;
-}
-  </style>
 
 
 <body class="worldwide-bg">
@@ -355,10 +350,10 @@
 
         <!-- Notification and User Block Start -->
         <div class="main-header_notification-user-block d-flex align-items-center">
-            <a href="notifications.html" class="notification-block">
-                <img src="assets/img/icons/notification.svg" alt="Notification Image">
-                <img src="assets/img/icons/notification-dark-theme.svg" class="dark-theme-image" alt="Notification Image">
-                <div class="notification-number">2</div>
+            <a href="wallet.php" class="notification-block">
+                <img src="assets/img/icons/wallet-light.svg" alt="Wallet">
+                <img src="assets/img/icons/wallet-light-red.svg" class="dark-theme-image" alt="Wallet">
+                <!-- <div class="notification-number">2</div> -->
             </a>
             <img src="assets/img/user.svg" alt="User Image">
         </div>
